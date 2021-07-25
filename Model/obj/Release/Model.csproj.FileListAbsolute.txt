@@ -1,0 +1,12 @@
+E:\ASP.NET\ASP.NET-Project\Model\bin\Release\Model.dll.config
+E:\ASP.NET\ASP.NET-Project\Model\bin\Release\Model.dll
+E:\ASP.NET\ASP.NET-Project\Model\bin\Release\Model.pdb
+E:\ASP.NET\ASP.NET-Project\Model\bin\Release\EntityFramework.dll
+E:\ASP.NET\ASP.NET-Project\Model\bin\Release\EntityFramework.SqlServer.dll
+E:\ASP.NET\ASP.NET-Project\Model\bin\Release\EntityFramework.xml
+E:\ASP.NET\ASP.NET-Project\Model\bin\Release\EntityFramework.SqlServer.xml
+E:\ASP.NET\ASP.NET-Project\Model\obj\Release\Model.csproj.AssemblyReference.cache
+E:\ASP.NET\ASP.NET-Project\Model\obj\Release\Model.csproj.CoreCompileInputs.cache
+E:\ASP.NET\ASP.NET-Project\Model\obj\Release\Model.csproj.CopyComplete
+E:\ASP.NET\ASP.NET-Project\Model\obj\Release\Model.dll
+E:\ASP.NET\ASP.NET-Project\Model\obj\Release\Model.pdb

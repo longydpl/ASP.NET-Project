@@ -77,3 +77,10 @@ E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\obj\Release\WebBanDoAnNhanh.csproj.Co
 E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\obj\Release\WebBanDoAnNhanh.csproj.CopyComplete
 E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\obj\Release\WebBanDoAnNhanh.dll
 E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\obj\Release\WebBanDoAnNhanh.pdb
+E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\Model.dll
+E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\EntityFramework.dll
+E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\Model.pdb
+E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\Model.dll.config
+E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\EntityFramework.xml
+E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\EntityFramework.SqlServer.dll
+E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\EntityFramework.SqlServer.xml
