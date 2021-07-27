@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebBanDoAnNhanh.Commom;
 
 namespace WebBanDoAnNhanh.Areas.Admin.Controllers
 {
@@ -15,10 +16,18 @@ namespace WebBanDoAnNhanh.Areas.Admin.Controllers
         {
             return View();
         }
-
+        [HttpGet]
+        public ActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost]
         public ActionResult Create(User user )
         {
             var dao = new UserDao();
+
+            var encryptedMd5Pas = Encryptor.MD5Hash(user.Password);
+            user.Password = encryptedMd5Pas;
             long id = dao.Insert(user);
             if(id>0)
             {

@@ -84,3 +84,7 @@ E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\Model.dll.config
 E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\EntityFramework.xml
 E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\EntityFramework.SqlServer.dll
 E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\EntityFramework.SqlServer.xml
+E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\PagedList.dll
+E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\PagedList.Mvc.dll
+E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\PagedList.xml
+E:\ASP.NET\ASP.NET-Project\WebBanDoAnNhanh\bin\PagedList.Mvc.xml
