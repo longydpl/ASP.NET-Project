@@ -142,6 +142,7 @@
     <Compile Include="Commom\CommonConstants.cs" />
     <Compile Include="Commom\Encryptor.cs" />
     <Compile Include="Commom\UserLogin.cs" />
+    <Compile Include="Controllers\TrangChuController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -1825,6 +1826,15 @@
     <Content Include="Asset\Admin\vendor\jquery\jquery.min.js" />
     <Content Include="Asset\Admin\vendor\jquery\jquery.slim.js" />
     <Content Include="Asset\Admin\vendor\jquery\jquery.slim.min.js" />
+    <Content Include="Asset\Client\css\StyleHome.css" />
+    <Content Include="Asset\Client\img\anhfb.png" />
+    <Content Include="Asset\Client\img\banner.png" />
+    <Content Include="Asset\Client\img\contact-left.png" />
+    <Content Include="Asset\Client\img\contact-right.png" />
+    <Content Include="Asset\Client\img\img-login-regsiter.jpg" />
+    <Content Include="Asset\Client\img\logo-gct.png" />
+    <Content Include="Asset\Client\img\logo.jpg" />
+    <Content Include="Asset\Client\img\map-web.png" />
     <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -2013,14 +2023,13 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout1.cshtml" />
+    <Content Include="Views\TrangChu\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Admin\Views\Base\" />
-    <Folder Include="Asset\Client\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
-    <Folder Include="Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="~/Asset/Client/css/StyleHome.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <div id="header-top">
+            <ul class="nav-top">
+                <li><a href="#">TRANG CHỦ</a></li>
+                <li><a href="#">GIỚI THIỆU</a></li>
+                <li><a href="#">TẤT CẢ MÓN ĂN</a></li>
+                <li><a href="#">TIN TỨC</a></li>
+                <li><a href="#">CHÍNH SÁCH</a></li>
+                <li><a href="#">BẢN ĐỒ</a></li>
+                <li><a href="#">LIÊN HỆ</a></li>
+            </ul>
+            <div class="account">
+                <div class="login">
+                    <a href="#">Đăng Nhập</a>
+                </div>
+                <div class="registration">
+                    <a href="#">Đăng ký</a>
+                </div>
+            </div>
+        </div>
+        <div class="header-mid">
+            <div class="search">
+                <input type="text" name="keyword" class="input1">
+                <button class="search-btn">Tìm kiếm</button>
+            </div>
+            <a href="#" class="banner">
+                <img src="~/Asset/Client/img/banner.png">
+            </a>
+            <div class="cart">
+                <span class="cart--span">Giỏ Hàng</span>
+                <a class="cart--number" href="#">0</a>
+            </div>
+        </div>
+        <div class="header-bot">
+            <ul class="nav-bot">
+                <li>
+                    <a href="#">MÓN ĂN VẶT</a>
+                    <ul class="subnav-bot">
+                        <li><a href="#">Món rán</a></li>
+                        <li><a href="#">Món nướng</a></li>
+                        <li><a href="#">Món cuốn</a></li>
+                        <li><a href="#">Các món nộm</a></li>
+                        <li><a href="#">Các món khác</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CHÈ</a></li>
+                <li><a href="#">SỮA CHUA</a></li>
+                <li><a href="#">SINH TỐ</a></li>
+                <li><a href="#">NƯỚC ÉP</a></li>
+                <li><a href="#">HOA QUẢ DẰM</a></li>
+                <li><a href="#">HOA QUẢ TƯƠI</a></li>
+                <li><a href="#">THỰC PHẨM TƯƠI SỐNG</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- danh sách đồ ăn -->
+    <div class="food-info">
+        @RenderBody()
+    </div>
+    <!-- footer -->
+    <div class="footer">
+        <div class="inner">
+            <div class="footer-menu">
+                <ul class="nav-footer">
+                    <li><a href="#">TRANG CHỦ</a></li>
+                    <li><a href="#">MÓN ĂN MỚI</a></li>
+                    <li><a href="#">MÓN ĂN ĐẶC BIỆT</a></li>
+                    <li><a href="#">GIỚI THIỆU</a></li>
+                    <li><a href="#">TIN TỨC</a></li>
+                    <li><a href="#">CHÍNH SÁCH</a></li>
+                    <li><a href="#">BẢN ĐỒ</a></li>
+                    <li><a href="#">LIÊN HỆ</a></li>
+                    <li><a href="#">PHÍ GIAO HÀNG</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <div class="footer-map">
+                    <img src="~/Asset/Client/img/map-web.png" alt="Alternate Text" />
+                </div>
+                <div class="footer-fb">
+                    <div class="footer-fb-top">
+                        <div class="fooder-logo">
+                            <a href="#">
+                                <img src="~/Asset/Client/img/logo.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="logo-name">
+                            <a href="#">
+                                Quà Vặt Việt
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="footer-contact">
+                    <p>Số ĐKKD 01E8024878</p>
+                    <p>   UBND Q. Đống Đa cấp ngày 15/11/2017</p>
+                    <p> Người đại diện: Đỗ Công Bắc</p>
+                    <p>Số 50, Ngõ 121 Chùa Láng, Đống Đa, Hà Nội</p>
+                    <p>Email: kinhdoanh@quavatviet.vn / info@quavatviet.vn</p>
+                    <p>Website: www.quavatviet.com / www.quavatviet.vn</p>
+                    <p>Facebook: www.facebook.com/quavatviet</p>
+                    <p>Điện thoại: 1900.0090</p>
+                    1.<a href="#"> Chính sách và quy định</a> -
+                    2.<a href="#"> Chính sách bảo mật thông tin</a>
+                </div>
+            </div>
+            <div class="logo-bct">
+                <img src="~/Asset/Client/img/logo-gct.png" alt="">
+            </div>
+            <div class="footer-end">
+                <p class="line"></p>
+                <p class="underline"> Từ Khóa: </p>
+            </div>
+
+        </div>
+    </div>
+    <div class="contact-web">
+        <div class="contact-left">
+            <img src="~/Asset/Client/img/contact-left.png" alt="">
+        </div>
+        <div class="contact-right">
+            <img src="~/Asset/Client/img/contact-right.png" alt="">
+        </div>
+    </div>
+
+</body>
+</html>
