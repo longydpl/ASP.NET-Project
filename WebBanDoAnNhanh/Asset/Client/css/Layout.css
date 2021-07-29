@@ -168,14 +168,13 @@ body {
     padding-left: 40px;
     border: oldlace;
 }
-/* food */
-.food-info {
-    height: 700px;
+/* body */
+.body-info {
+    height: auto;
     margin-top: 32px;
     width: 940px;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(./img/img-login-regsiter.jpg);
 }
 /* footer */
 .footer{
@@ -218,7 +217,7 @@ body {
 }
 
 .footer-map {
-    
+    background: url('../img/map-web.png') top / cover no-repeat;
 }
 
 .footer-map,
@@ -227,17 +226,15 @@ body {
     height: 140px;
     margin: 24px 16px 0 0;
 }
-.footer-map > img,
-.footer-fb > img{
-    width:100%;
-}
+
 .footer-fb-top {
     margin-top: 4px;
     margin-left: 4px;
+    display: flex;
 }
 
 .footer-fb {
-    background-image:url(../Asset/Client/img/banner.png) top  / cover no-repeat;
+    background: url('../img/anhfb.png') top / cover no-repeat;
     box-shadow: 0px 30px 30px #333 inset;
 }
 
@@ -262,7 +259,7 @@ body {
 .footer-map .img-map {
     width: 100%;
 }
-
+/* contact*/
 .footer-contact {
     margin-top: 24px;
     color: #fff;
